@@ -672,8 +672,6 @@ namespace strumpack {
       void write(std::ofstream& os) const override;
 
       friend class HSSMatrixMPI<scalar_t>;
-
-      using HSSMatrixBase<scalar_t>::child;
     };
 
     /**
