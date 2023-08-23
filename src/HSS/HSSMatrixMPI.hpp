@@ -423,8 +423,6 @@ namespace strumpack {
                      const DistributedMatrix<T>& b, T beta,
                      DistributedMatrix<T>& c);
       friend class DistSamples<scalar_t>;
-
-      using HSSMatrixBase<scalar_t>::child;
     };
 
   } // end namespace HSS
